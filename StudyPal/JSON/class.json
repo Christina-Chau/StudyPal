@@ -1,0 +1,76 @@
+{
+    "classes": [
+    {
+      "className": "AMS 151",
+      "classDesc": "Applied Calculus I"
+    },
+    {
+      "className": "AMS 161",
+      "classDesc": "Applied Calculus II"
+    },
+    {
+      "className": "AMS 210",
+      "classDesc": "Applied Linear Algebra"
+    },
+    {
+      "className": "AMS 326",
+      "classDesc": "Numerical Analysis"
+    },
+    {
+      "className": "CSE 114",
+      "classDesc": "Introduction to Object Oriented Programming"
+    },
+    {
+      "className": "CSE 214",
+      "classDesc": "Data Structures"
+    },
+    {
+      "className": "CSE 215",
+      "classDesc": "Foundations of Computer Science"
+    },
+    {
+      "className": "CSE 216",
+      "classDesc": "Programming Abstractions"
+    },
+    {
+      "className": "CSE 220",
+      "classDesc": "System Fundamentals"
+    },
+    {
+      "className": "CSE 300",
+      "classDesc": "Technical Communications"
+    },
+    {
+      "className": "CSE 303",
+      "classDesc": "Introduction to the Theory of Computation"
+    },
+    {
+      "className": "CSE 310",
+      "classDesc": "Computer Networks"
+    },
+    {
+      "className": "CSE 312",
+      "classDesc": "Legal, Social, and Ethical Issues in Information Systems"
+    },
+    {
+      "className": "CSE 316",
+      "classDesc": "Fundamentals of Software Development"
+    },
+    {
+      "className": "CSE 320",
+      "classDesc": "System Fundamentals II"
+    },
+    {
+      "className": "CSE 373",
+      "classDesc": "Analysis of Algorithms"
+    },
+    {
+      "className": "CSE 416",
+      "classDesc": "Software Engineering"
+    },
+    {
+      "className": "MAT 211",
+      "classDesc": "Introduction to Linear Algebra"
+    }
+  ]
+}

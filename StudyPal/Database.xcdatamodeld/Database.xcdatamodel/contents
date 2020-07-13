@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Accounts" representedClassName=".Accounts" syncable="YES">
+        <attribute name="email" attributeType="String"/>
+        <attribute name="first_name" attributeType="String"/>
+        <attribute name="last_name" attributeType="String"/>
+        <attribute name="password" attributeType="String"/>
+        <attribute name="user_name" attributeType="String"/>
+    </entity>
+    <entity name="ClassEntry" representedClassName=".ClassEntry" syncable="YES">
+        <attribute name="class_name" attributeType="String"/>
+        <attribute name="entry_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="study_type" attributeType="String"/>
+        <attribute name="user_name" attributeType="String"/>
+    </entity>
+    <entity name="Classes" representedClassName=".Classes" syncable="YES">
+        <attribute name="class_decsr" attributeType="String"/>
+        <attribute name="class_name" attributeType="String"/>
+    </entity>
+    <entity name="Entry" representedClassName="Entry" syncable="YES" codeGenerationType="class">
+        <attribute name="entry_id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="partner_username" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Student" representedClassName=".Student" syncable="YES">
+        <attribute name="class_name" attributeType="String"/>
+        <attribute name="connection_num" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="full" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="groupsize" attributeType="String"/>
+        <attribute name="study_type" attributeType="String"/>
+        <attribute name="user_name" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Accounts" positionX="-63" positionY="-18" width="128" height="28"/>
+        <element name="ClassEntry" positionX="-18" positionY="72" width="128" height="103"/>
+        <element name="Classes" positionX="-36" positionY="63" width="128" height="28"/>
+        <element name="Student" positionX="-54" positionY="27" width="128" height="133"/>
+        <element name="Entry" positionX="-27" positionY="63" width="128" height="73"/>
+    </elements>
+</model>

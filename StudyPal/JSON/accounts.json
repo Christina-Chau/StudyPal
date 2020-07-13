@@ -1,0 +1,27 @@
+{
+    "account": [
+    {
+      "email": "bob@gmail.com",
+      "first_name": "Bob",
+      "last_name": "Johnson",
+      "password": "bob"
+      "user_name": "bobIsCool"
+    },
+    {
+      "email": "letmepass@gmail.com",
+      "first_name": "Steve",
+      "last_name": "Kim",
+      "password": "class"
+      "user_name": "sadStudent"
+    },
+    {
+      "email": "james@gmail.com",
+      "first_name": "James",
+      "last_name": "Lee",
+      "password": "james123"
+      "user_name": "jamie"
+    }
+  ]
+}
+
+

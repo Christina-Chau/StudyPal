@@ -13,6 +13,34 @@
 		D2045BDC24A3FBA5001F4A05 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2045BDA24A3FBA5001F4A05 /* Main.storyboard */; };
 		D2045BDE24A3FBA9001F4A05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2045BDD24A3FBA9001F4A05 /* Assets.xcassets */; };
 		D2045BE124A3FBA9001F4A05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2045BDF24A3FBA9001F4A05 /* LaunchScreen.storyboard */; };
+		D2045BEC24A44B56001F4A05 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BEB24A44B56001F4A05 /* SignInViewController.swift */; };
+		D2045BEE24A44F46001F4A05 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BED24A44F46001F4A05 /* CreateAccountViewController.swift */; };
+		D2045BF124A6665B001F4A05 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D2045BEF24A6665B001F4A05 /* Database.xcdatamodeld */; };
+		D2045BFA24A67CE5001F4A05 /* ClassEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF224A67CE5001F4A05 /* ClassEntry+CoreDataClass.swift */; };
+		D2045BFB24A67CE5001F4A05 /* ClassEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF324A67CE5001F4A05 /* ClassEntry+CoreDataProperties.swift */; };
+		D2045BFC24A67CE5001F4A05 /* Accounts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF424A67CE5001F4A05 /* Accounts+CoreDataClass.swift */; };
+		D2045BFD24A67CE5001F4A05 /* Accounts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF524A67CE5001F4A05 /* Accounts+CoreDataProperties.swift */; };
+		D2045BFE24A67CE5001F4A05 /* Classes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF624A67CE5001F4A05 /* Classes+CoreDataClass.swift */; };
+		D2045BFF24A67CE5001F4A05 /* Classes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF724A67CE5001F4A05 /* Classes+CoreDataProperties.swift */; };
+		D2045C0024A67CE5001F4A05 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF824A67CE5001F4A05 /* Student+CoreDataClass.swift */; };
+		D2045C0124A67CE5001F4A05 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045BF924A67CE5001F4A05 /* Student+CoreDataProperties.swift */; };
+		D2045C0624A699D8001F4A05 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045C0524A699D8001F4A05 /* HomeViewController.swift */; };
+		D2045C0824A69B60001F4A05 /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045C0724A69B60001F4A05 /* TabViewController.swift */; };
+		D2045C0C24A6EE06001F4A05 /* class.json in Resources */ = {isa = PBXBuildFile; fileRef = D2045C0B24A6EE06001F4A05 /* class.json */; };
+		D2045C0E24A6F879001F4A05 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2045C0D24A6F879001F4A05 /* ClassesViewController.swift */; };
+		D22D480024A995C900513B8A /* FindPalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D47FF24A995C900513B8A /* FindPalTableViewController.swift */; };
+		D22D482424ABF0CC00513B8A /* PalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D482324ABF0CC00513B8A /* PalsViewController.swift */; };
+		D22D482624ABF13400513B8A /* NewPalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D22D482524ABF13400513B8A /* NewPalViewController.swift */; };
+		D273706424B25C3100F43F07 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706324B25C3100F43F07 /* SettingsViewController.swift */; };
+		D273706624B2602300F43F07 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706524B2602300F43F07 /* AccountTableViewController.swift */; };
+		D273706824B279CC00F43F07 /* ChangeEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706724B279CC00F43F07 /* ChangeEmailViewController.swift */; };
+		D273706A24B286DA00F43F07 /* SignOutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706924B286DA00F43F07 /* SignOutTableViewController.swift */; };
+		D273706C24B289E900F43F07 /* ChangeUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706B24B289E900F43F07 /* ChangeUsernameViewController.swift */; };
+		D273706E24B2A2C300F43F07 /* ChangePasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273706D24B2A2C300F43F07 /* ChangePasswordViewController.swift */; };
+		D273707024B3C43C00F43F07 /* accounts.json in Resources */ = {isa = PBXBuildFile; fileRef = D273706F24B3C43C00F43F07 /* accounts.json */; };
+		D2C41C6824AEC0C700AAD9C6 /* AddPalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C41C6724AEC0C700AAD9C6 /* AddPalTableViewController.swift */; };
+		D2C41C6A24B027D300AAD9C6 /* ClassPalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C41C6924B027D300AAD9C6 /* ClassPalsViewController.swift */; };
+		D2D30A8824AA8873006B700E /* StillFindTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D30A8724AA8873006B700E /* StillFindTableController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +52,34 @@
 		D2045BDD24A3FBA9001F4A05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2045BE024A3FBA9001F4A05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2045BE224A3FBA9001F4A05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2045BEB24A44B56001F4A05 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		D2045BED24A44F46001F4A05 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		D2045BF024A6665B001F4A05 /* Database.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Database.xcdatamodel; sourceTree = "<group>"; };
+		D2045BF224A67CE5001F4A05 /* ClassEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2045BF324A67CE5001F4A05 /* ClassEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ClassEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2045BF424A67CE5001F4A05 /* Accounts+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accounts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2045BF524A67CE5001F4A05 /* Accounts+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Accounts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2045BF624A67CE5001F4A05 /* Classes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2045BF724A67CE5001F4A05 /* Classes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2045BF824A67CE5001F4A05 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D2045BF924A67CE5001F4A05 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D2045C0524A699D8001F4A05 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D2045C0724A69B60001F4A05 /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		D2045C0B24A6EE06001F4A05 /* class.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = class.json; sourceTree = "<group>"; };
+		D2045C0D24A6F879001F4A05 /* ClassesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		D22D47FF24A995C900513B8A /* FindPalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindPalTableViewController.swift; sourceTree = "<group>"; };
+		D22D482324ABF0CC00513B8A /* PalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalsViewController.swift; sourceTree = "<group>"; };
+		D22D482524ABF13400513B8A /* NewPalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPalViewController.swift; sourceTree = "<group>"; };
+		D273706324B25C3100F43F07 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D273706524B2602300F43F07 /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		D273706724B279CC00F43F07 /* ChangeEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeEmailViewController.swift; sourceTree = "<group>"; };
+		D273706924B286DA00F43F07 /* SignOutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutTableViewController.swift; sourceTree = "<group>"; };
+		D273706B24B289E900F43F07 /* ChangeUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUsernameViewController.swift; sourceTree = "<group>"; };
+		D273706D24B2A2C300F43F07 /* ChangePasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordViewController.swift; sourceTree = "<group>"; };
+		D273706F24B3C43C00F43F07 /* accounts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = accounts.json; sourceTree = "<group>"; };
+		D2C41C6724AEC0C700AAD9C6 /* AddPalTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPalTableViewController.swift; sourceTree = "<group>"; };
+		D2C41C6924B027D300AAD9C6 /* ClassPalsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassPalsViewController.swift; sourceTree = "<group>"; };
+		D2D30A8724AA8873006B700E /* StillFindTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StillFindTableController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +112,8 @@
 		D2045BD324A3FBA5001F4A05 /* StudyPal */ = {
 			isa = PBXGroup;
 			children = (
+				D273707124B3C6F800F43F07 /* JSON */,
+				D2045C0424A68F9C001F4A05 /* Data */,
 				D2045BD424A3FBA5001F4A05 /* AppDelegate.swift */,
 				D2045BD624A3FBA5001F4A05 /* SceneDelegate.swift */,
 				D2045BD824A3FBA5001F4A05 /* ViewController.swift */,
@@ -63,8 +121,50 @@
 				D2045BDD24A3FBA9001F4A05 /* Assets.xcassets */,
 				D2045BDF24A3FBA9001F4A05 /* LaunchScreen.storyboard */,
 				D2045BE224A3FBA9001F4A05 /* Info.plist */,
+				D2045BEB24A44B56001F4A05 /* SignInViewController.swift */,
+				D2045BED24A44F46001F4A05 /* CreateAccountViewController.swift */,
+				D2045BEF24A6665B001F4A05 /* Database.xcdatamodeld */,
+				D2045C0524A699D8001F4A05 /* HomeViewController.swift */,
+				D2045C0724A69B60001F4A05 /* TabViewController.swift */,
+				D22D47FF24A995C900513B8A /* FindPalTableViewController.swift */,
+				D2D30A8724AA8873006B700E /* StillFindTableController.swift */,
+				D22D482324ABF0CC00513B8A /* PalsViewController.swift */,
+				D22D482524ABF13400513B8A /* NewPalViewController.swift */,
+				D2C41C6724AEC0C700AAD9C6 /* AddPalTableViewController.swift */,
+				D2045C0D24A6F879001F4A05 /* ClassesViewController.swift */,
+				D273706724B279CC00F43F07 /* ChangeEmailViewController.swift */,
+				D2C41C6924B027D300AAD9C6 /* ClassPalsViewController.swift */,
+				D273706324B25C3100F43F07 /* SettingsViewController.swift */,
+				D273706524B2602300F43F07 /* AccountTableViewController.swift */,
+				D273706924B286DA00F43F07 /* SignOutTableViewController.swift */,
+				D273706B24B289E900F43F07 /* ChangeUsernameViewController.swift */,
+				D273706D24B2A2C300F43F07 /* ChangePasswordViewController.swift */,
 			);
 			path = StudyPal;
+			sourceTree = "<group>";
+		};
+		D2045C0424A68F9C001F4A05 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D2045BF224A67CE5001F4A05 /* ClassEntry+CoreDataClass.swift */,
+				D2045BF324A67CE5001F4A05 /* ClassEntry+CoreDataProperties.swift */,
+				D2045BF424A67CE5001F4A05 /* Accounts+CoreDataClass.swift */,
+				D2045BF524A67CE5001F4A05 /* Accounts+CoreDataProperties.swift */,
+				D2045BF624A67CE5001F4A05 /* Classes+CoreDataClass.swift */,
+				D2045BF724A67CE5001F4A05 /* Classes+CoreDataProperties.swift */,
+				D2045BF824A67CE5001F4A05 /* Student+CoreDataClass.swift */,
+				D2045BF924A67CE5001F4A05 /* Student+CoreDataProperties.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D273707124B3C6F800F43F07 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				D273706F24B3C43C00F43F07 /* accounts.json */,
+				D2045C0B24A6EE06001F4A05 /* class.json */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +225,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2045C0C24A6EE06001F4A05 /* class.json in Resources */,
 				D2045BE124A3FBA9001F4A05 /* LaunchScreen.storyboard in Resources */,
 				D2045BDE24A3FBA9001F4A05 /* Assets.xcassets in Resources */,
 				D2045BDC24A3FBA5001F4A05 /* Main.storyboard in Resources */,
+				D273707024B3C43C00F43F07 /* accounts.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +240,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2045BEE24A44F46001F4A05 /* CreateAccountViewController.swift in Sources */,
+				D22D482424ABF0CC00513B8A /* PalsViewController.swift in Sources */,
+				D2045BFB24A67CE5001F4A05 /* ClassEntry+CoreDataProperties.swift in Sources */,
+				D2045BEC24A44B56001F4A05 /* SignInViewController.swift in Sources */,
+				D2045C0E24A6F879001F4A05 /* ClassesViewController.swift in Sources */,
+				D2045C0024A67CE5001F4A05 /* Student+CoreDataClass.swift in Sources */,
+				D2045BFD24A67CE5001F4A05 /* Accounts+CoreDataProperties.swift in Sources */,
+				D2045C0624A699D8001F4A05 /* HomeViewController.swift in Sources */,
+				D2045BFA24A67CE5001F4A05 /* ClassEntry+CoreDataClass.swift in Sources */,
+				D2045C0124A67CE5001F4A05 /* Student+CoreDataProperties.swift in Sources */,
+				D2045C0824A69B60001F4A05 /* TabViewController.swift in Sources */,
 				D2045BD924A3FBA5001F4A05 /* ViewController.swift in Sources */,
+				D273706E24B2A2C300F43F07 /* ChangePasswordViewController.swift in Sources */,
+				D2045BFC24A67CE5001F4A05 /* Accounts+CoreDataClass.swift in Sources */,
 				D2045BD524A3FBA5001F4A05 /* AppDelegate.swift in Sources */,
+				D22D480024A995C900513B8A /* FindPalTableViewController.swift in Sources */,
+				D273706824B279CC00F43F07 /* ChangeEmailViewController.swift in Sources */,
+				D2045BFF24A67CE5001F4A05 /* Classes+CoreDataProperties.swift in Sources */,
+				D2C41C6824AEC0C700AAD9C6 /* AddPalTableViewController.swift in Sources */,
+				D2045BFE24A67CE5001F4A05 /* Classes+CoreDataClass.swift in Sources */,
+				D22D482624ABF13400513B8A /* NewPalViewController.swift in Sources */,
+				D273706C24B289E900F43F07 /* ChangeUsernameViewController.swift in Sources */,
+				D2045BF124A6665B001F4A05 /* Database.xcdatamodeld in Sources */,
 				D2045BD724A3FBA5001F4A05 /* SceneDelegate.swift in Sources */,
+				D273706424B25C3100F43F07 /* SettingsViewController.swift in Sources */,
+				D273706A24B286DA00F43F07 /* SignOutTableViewController.swift in Sources */,
+				D2D30A8824AA8873006B700E /* StillFindTableController.swift in Sources */,
+				D2C41C6A24B027D300AAD9C6 /* ClassPalsViewController.swift in Sources */,
+				D273706624B2602300F43F07 /* AccountTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +464,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D2045BEF24A6665B001F4A05 /* Database.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D2045BF024A6665B001F4A05 /* Database.xcdatamodel */,
+			);
+			currentVersion = D2045BF024A6665B001F4A05 /* Database.xcdatamodel */;
+			path = Database.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D2045BC924A3FBA5001F4A05 /* Project object */;
 }
